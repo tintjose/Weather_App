@@ -1,0 +1,107 @@
+input:focus {
+  outline: none;
+align-items: center;
+}
+
+
+.search-text-background {
+  display: block;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 10px auto 0 auto;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  background: #ccc;
+align-items: center;
+  color:#000;
+}
+.search-button-background {
+  display: block;
+  width: 80%;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  align-items: center;
+  border: none;
+  border-radius: 2em;
+  background: radial-gradient(circle at 96% 50%, #577666 0%, #324a44 100%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #ccc;
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+ .search-button-background:hover {
+  box-shadow: 0px 8px 15px 0px rgb(0, 0, 0, 0.2);
+  color: #fefaef;
+}
+
+.search-weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0px;
+  border-radius: 10px;
+
+}
+
+.search-adaptive-weather {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-text-weather {
+  display: block;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 10px auto 0 auto;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #ccc;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-indent: 20px;
+}
+
+.search-button-weather {
+  display: block;
+  width: 80%;
+  margin: 10px auto 10px auto;
+  padding: 10px;
+  align-items: center;
+  border: none;
+  border-radius: 2em;
+  background: radial-gradient(circle at 96% 50%, #b7d383 0%, #84bd5e 100%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.search-button-weather:hover {
+  box-shadow: 0px 8px 15px 0px rgb(0, 0, 0, 0.2);
+}
+
+/* responsive design for search-weather */
+@media only screen and (min-width: 600px) {
+  .search-adaptive-weather {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  .search-text-weather {
+    height: 42px;
+    margin-right: 10px;
+  }
+  .search-button-weather {
+    max-width: 250px;
+  }
+}
