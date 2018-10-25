@@ -14,7 +14,7 @@ app.listen(port,'0.0.0.0');
 // get reference to the client build directory
 
 // pass the static files (react app) to the express app.
-app.use(express.static(path.join(__dirname, '../../client/build')));
+app.use(express.static(path.join(__dirname, './client/build')));
 
 const API_URL = 'https://www.metaweather.com/api/location/';
 // router and controller for cities list

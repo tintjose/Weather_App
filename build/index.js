@@ -13,7 +13,7 @@ app.listen(port,'0.0.0.0');
 
 var API_URL = 'https://www.metaweather.com/api/location/';
 app.get('/', (request, response) => {
-	response.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+	response.sendFile(path.join(__dirname, '../client/build', 'index.html'));
 });
 // router and controller for cities list
 app.get('/cities', function(req, res) {
