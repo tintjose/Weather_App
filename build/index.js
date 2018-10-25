@@ -6,9 +6,10 @@ var axios = require('axios');
 
 var app = express();
 var port = process.env.PORT || 5001;
-app.listen(port, function() {
-  console.log('We are live on ' + port);
-});
+app.listen(port,'0.0.0.0');
+// app.listen(port, function() {
+//   console.log('We are live on ' + port);
+// });
 
 var API_URL = 'https://www.metaweather.com/api/location/';
 app.get('/', (request, response) => {

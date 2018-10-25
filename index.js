@@ -6,9 +6,10 @@ const path=require('path');
 
 const app = express();
 const port = process.env.PORT || 5001;
-app.listen(port, () => {
-  console.log('port no ' +port);
-});
+app.listen(port,'0.0.0.0');
+// app.listen(port, () => {
+//   console.log('port no ' +port);
+// });
 
 // get reference to the client build directory
 
