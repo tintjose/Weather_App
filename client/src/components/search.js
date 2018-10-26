@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/styles/search.css';
-
+import Error from './error';
 import { requestCity, requestWeather } from '../api';
 class Search extends React.Component {
   constructor(props) {
@@ -99,8 +99,7 @@ class Search extends React.Component {
       <div
         id="weatherForm"
         className={'search-' + this.props.Tag}
-        onSubmit={this.handleSubmit}
-      >
+        onSubmit={this.handleSubmit}>
         <div className={'search-adaptive-' + this.props.Tag}>
           <input
             className={'search-text-' + this.props.Tag}
@@ -108,16 +107,14 @@ class Search extends React.Component {
             placeholder="Enter city ..."
             value={this.state.title}
             onChange={this.update('title')}
-            onKeyPress={this.onKeyPress}
-          />
+            onKeyPress={this.onKeyPress}  />
           <input
             className={'search-button-' + this.props.Tag}
             type="submit"
             value="requestWeather"
-            onClick={this.handleSubmit}
-          />
+            onClick={this.handleSubmit}/>
         </div>
-
+        <Error err={this.state.err} />
       </div>
     );
   }

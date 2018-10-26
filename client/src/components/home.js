@@ -3,7 +3,7 @@ import '../assets/styles/home.css';
 import Header from './header';
 import Search from './search';
 import BackgroundSlideshow from 'react-background-slideshow';
-import img1 from '../assets/images/backlit-beauty-breathtaking-267151.jpg';
+import img1 from '../assets/images/calamity-city-clouds-1162251.jpg';
 import img2 from  '../assets/images/black-and-white-clear-cool-459451.jpg';
 import img3 from '../assets/images/black-and-white-cold-environment-796563.jpg';
 import img4 from '../assets/images/blur-bokeh-calamity-725876.jpg';

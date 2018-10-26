@@ -2,6 +2,14 @@ input:focus {
   outline: none;
 align-items: center;
 }
+.error {
+  display: block;
+  padding: 10px 0 0 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #ab0000;
+  text-align: center;
+}
 .search-text-background {
   display: block;
   box-sizing: border-box;

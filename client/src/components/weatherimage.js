@@ -1,14 +1,14 @@
 import React from 'react';
-import sn from '../assets/img/sn.png';
-import sl from '../assets/img/sleet.png';
-import h from '../assets/img/h.png';
-import t from '../assets/img/t.png';
-import hr from '../assets/img/hr.png';
-import lr from '../assets/img/lr.png';
-import s from '../assets/img/s.png';
-import hc from '../assets/img/hc.png';
-import lc from '../assets/img/lc.png';
-import c from '../assets/img/c.png';
+import sn from '../assets/img1/sn.svg';
+import sl from '../assets/img1/sl.svg';
+import h from '../assets/img1/h.svg';
+import t from '../assets/img1/t.svg';
+import hr from '../assets/img1/hr.svg';
+import lr from '../assets/img1/hr.svg';
+import s from '../assets/img1/s.svg';
+import hc from '../assets/img1/hc.svg';
+import lc from '../assets/img1/lc.svg';
+import c from '../assets/img1/c.svg';
 class WeatherImg extends React.Component{
   render(){
     let wimg=this.props.wimg;
