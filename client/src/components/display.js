@@ -12,6 +12,7 @@ class Display extends React.Component{
      centerMode: false,
      infinite: true,
      centerPadding: "1px",
+     dots:true,
      slidesToShow: 3,
      speed: 1000,
      autoplaySpeed:6000,

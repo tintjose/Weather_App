@@ -1,4 +1,5 @@
 import React from 'react';
+import Weatherimg from './weatherimage';
 class DisplayTemp extends React.Component{
   render(){
     if(this.props.city.length<=0){
@@ -15,12 +16,15 @@ class DisplayTemp extends React.Component{
         {weather.weather_state_name}
         </h3>
         <div>
-        <h3 className="weather-report-degree max">Max_Temp :
+        <h3 >Max_Temp :
                 {Math.round(weather.max_temp * 9 / 5 + 32)}&deg;F
               </h3>
-              <h3 className="weather-report-degree min"> Min_Temp :
+              <h3> Min_Temp :
                 {Math.round(weather.min_temp * 9 / 5 + 32)}&deg;F
               </h3>
+            </div>
+            <div className="wimg">
+              <Weatherimg wimg={weather.weather_state_abbr} />
             </div>
         </div>
       );
