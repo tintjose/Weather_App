@@ -9,13 +9,10 @@ class App extends React.Component {
   render() {
     return (
       <div >
-
-
-      <HashRouter>
+    <HashRouter>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/weather/:woeid" component={Weather} />
-
         </Switch>
       </HashRouter>
 

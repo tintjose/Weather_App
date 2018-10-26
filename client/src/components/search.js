@@ -114,7 +114,7 @@ class Search extends React.Component {
             value="requestWeather"
             onClick={this.handleSubmit}/>
         </div>
-        <Error err={this.state.err} />
+        <Error err={this.state.error} />
       </div>
     );
   }

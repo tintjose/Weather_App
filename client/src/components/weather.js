@@ -43,12 +43,14 @@ handleCity(woeid){
     return (
       <div className="">
         <Header history={this.props.history} />
+
         <div className="search-holder ">
         <Search Tag="weather" history={this.props.history} handleCity={this.handleCity} />
         </div>
         <h3 className="weather-city "> {this.state.city}</h3>
         <div className="">
         <Display weather={state.weather} city={state.city} />
+
       </div>
       </div>
     );

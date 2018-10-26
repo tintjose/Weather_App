@@ -15,7 +15,7 @@ class Display extends React.Component{
      dots:true,
      slidesToShow: 3,
      speed: 1000,
-     autoplaySpeed:6000,
+     autoplaySpeed:5000,
      autoplay:true,
       responsive: [
         {
