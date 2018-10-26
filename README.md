@@ -9,7 +9,7 @@ Html and CSS,
 Other React Libraries: 
         React-slick, 
         React-Router-Dom, 
-        React-backgroung-slideshow.
+        React-background-slideshow.
 
 3rd Party Api : https://www.metaweather.com/api/
 Take some location information and display the weather in a nice way.
