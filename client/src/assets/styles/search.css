@@ -2,8 +2,6 @@ input:focus {
   outline: none;
 align-items: center;
 }
-
-
 .search-text-background {
   display: block;
   box-sizing: border-box;

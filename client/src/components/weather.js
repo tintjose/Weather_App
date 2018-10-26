@@ -3,9 +3,7 @@ import Header from './header';
 import '../assets/styles/weather.css';
 import Search from './search';
 import Display from './display';
-//import Weather from './weather';
 import {requestWeather} from '../api';
-//import './App.css';
 //const url="https://www.metaweather.com/api/location/";
 
 class Weather extends React.Component {

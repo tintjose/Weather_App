@@ -2,8 +2,6 @@ import React from 'react';
 import '../assets/styles/search.css';
 
 import { requestCity, requestWeather } from '../api';
-//import SearchError from './SearchError';
-
 class Search extends React.Component {
   constructor(props) {
     super(props);
@@ -22,9 +20,6 @@ class Search extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleCity = this.handleCity.bind(this);
   }
-
-
-
   handleCity(woeid) {
     requestWeather(woeid).then(res => {
       this.setState({
@@ -36,8 +31,6 @@ class Search extends React.Component {
 
   handleSubmit() {
     if (this.state.title === '') return null;
-
-    // setTimeout is a temproary fix to deal with async issues with update(field)
     setTimeout(() => {
       if (this.state.woeid > 0) {
         this.setState({

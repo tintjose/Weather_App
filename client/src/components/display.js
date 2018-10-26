@@ -6,6 +6,7 @@ import Slider from "react-slick";
 class Display extends React.Component{
 
   render(){
+    //carousel react-slick
     var settings = {
       className: "center",
      centerMode: true,

@@ -1,17 +1,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const axios = require('axios');
-//import path from 'path';
 const path=require('path');
-
 const app = express();
-const port = process.env.PORT || 5001;
-app.listen(port,'0.0.0.0');
-// app.listen(port, () => {
-//   console.log('port no ' +port);
-// });
 
-// get reference to the client build directory
+
+const port = process.env.PORT || 5001;
+
+app.listen(port,'0.0.0.0');
 
 // pass the static files (react app) to the express app.
 app.use(express.static(path.join(__dirname, './client/build')));
