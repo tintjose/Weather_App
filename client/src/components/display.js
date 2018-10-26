@@ -9,11 +9,13 @@ class Display extends React.Component{
     //carousel react-slick
     var settings = {
       className: "center",
-     centerMode: true,
+     centerMode: false,
      infinite: true,
      centerPadding: "1px",
      slidesToShow: 3,
-     speed: 500,
+     speed: 1000,
+     autoplaySpeed:6000,
+     autoplay:true,
       responsive: [
         {
           breakpoint: 1024,
@@ -23,7 +25,7 @@ class Display extends React.Component{
             infinite: true,
             dots: true,
             className: "center",
-           centerMode: true,
+           centerMode: false,
           }
         },
         {
@@ -33,7 +35,7 @@ class Display extends React.Component{
             slidesToScroll: 2,
             initialSlide: 2,
             className: "center",
-           centerMode: true,
+           centerMode: false,
           }
         },
         {
@@ -42,7 +44,7 @@ class Display extends React.Component{
             slidesToShow: 1,
             slidesToScroll: 1,
             className: "center",
-           centerMode: true,
+           centerMode: false,
           }
         }
       ]
