@@ -1,5 +1,5 @@
 # Weather_App
-Demo: https://pure-journey-85005.herokuapp.com/#/
+Demo: https://pure-journey-85005.herokuapp.com/
 
 Technologies:
 React, 
